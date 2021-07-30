@@ -30,7 +30,7 @@ app.get("/about", (req, res) => {
 
 });
 app.get("/weather", (req, res) => {  
-  res.render("weather",{
+  res.render("weather",{                 
   
   });
 });
